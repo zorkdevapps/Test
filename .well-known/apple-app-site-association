@@ -1,0 +1,45 @@
+{
+  "activitycontinuation" : {
+    "apps" : [
+      "WX9VZ58J6W.com.zorkdev.MindTheApp"
+    ]
+  },
+  "appclips" : {
+    "apps" : [
+      "WX9VZ58J6W.com.zorkdev.MindTheApp.Clip"
+    ]
+  },
+  "applinks" : {
+    "apps" : [
+
+    ],
+    "details" : [
+      {
+        "appIDs" : [
+          "WX9VZ58J6W.com.zorkdev.MindTheApp"
+        ],
+        "components" : [
+          {
+            "#" : "no_universal_links",
+            "exclude" : true
+          },
+          {
+            "/" : "/privacy-policy",
+            "exclude" : true
+          },
+          {
+            "/" : "/support",
+            "exclude" : true
+          },
+          {
+            "/" : "/",
+            "exclude" : true
+          },
+          {
+            "/" : "/*"
+          }
+        ]
+      }
+    ]
+  }
+}

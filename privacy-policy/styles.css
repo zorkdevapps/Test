@@ -1,0 +1,41 @@
+:root {
+    font-family: ui-rounded, -apple-system, BlinkMacSystemFont, sans-serif, "Apple Color Emoji";
+    --link-color: #4867e7;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --link-color: #4f71ff;
+    }
+}
+
+body {
+    max-width: 800px;
+    padding: 0px 40px;
+    margin: auto;
+    text-align: left;
+    line-height: 1.5
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        padding: 0px 16px;    
+    }
+}
+
+img {
+    vertical-align: middle;
+    padding-right: 8px;
+}
+
+a {
+    color: var(--link-color);
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
